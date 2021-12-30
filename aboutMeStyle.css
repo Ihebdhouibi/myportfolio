@@ -3,6 +3,10 @@
     height: auto;
     padding: 50px 10vw;
 }
+.about-me-container{
+    margin: 80px;
+}
+
 
 .heading{
     text-align: center;
@@ -10,6 +14,7 @@
     font-size: 2.5rem;
     text-transform: capitalize;
 }
+
 
 .seperator{
     width:25%;
@@ -45,4 +50,8 @@
 .about-image{
     width: 40%;
     height: 40%
+}
+
+.experience-section{
+    margin: 50px;
 }
