@@ -15,7 +15,9 @@
     text-transform: capitalize;
 }
 
-
+.ex-me{
+    margin-top: 35px;
+}
 .seperator{
     width:25%;
     margin: 20px auto;
