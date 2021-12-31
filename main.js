@@ -34,6 +34,24 @@
     }
 })(jQuery);
 
+
+// isotope and filter 
+
+
+var projectIsotope = $('.projects-container').isotope({itemSelector: '.project', layoutMode: 'fitRows'})
+$('#projects-filter li').on('click', function(){
+    $("#projects-filter li").removeClass('active');
+    $(this).addClass('active');
+
+    projectIsotope.isotope({filter: $(this).data('filter')})
+})
+
+
+
+
+
+
+
 // links 
 
 const links = document.querySelectorAll('.link');
