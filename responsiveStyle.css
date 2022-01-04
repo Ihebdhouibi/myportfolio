@@ -109,12 +109,15 @@
 }
 
 @media(max-width: 480px){
-        /* toggle btn */
+        .html{
+            font-size: 12px;
+        }    
+    /* toggle btn */
         .toggle-btn{
             position: absolute;
             width: 40px;
             height: 40px;
-            right: 10vw;
+            right: 15vw;
             cursor: pointer;
         }
         .toggle-btn span{
@@ -163,4 +166,43 @@
             height: 50px;
     
         }
+
+        .home .image{
+            width: 150px;           
+        }
+
+        .home .myname{
+            font-size: 2.5rem;
+            text-align: left;
+            margin-left: -40px;
+        }
+        .home .highlight{
+            font-size: 2.5rem;
+        }
+        .home .profession{
+            margin-right: -80px;
+        }
+
+        .home .typed-text-output{
+            font-size : 18px;
+            text-align: left;
+            margin-left: -40px;
+            
+        }
+
+        .home .btn{
+            margin: auto;
+            margin-top: 40px;
+        }
+
+        /* about section */
+
+        .about .heading{
+            font-size: 1.5rem;
+        }
+
+        .about .highlight{
+            font-size: 1.5rem;
+        }
+
 }
