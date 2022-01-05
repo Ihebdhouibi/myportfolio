@@ -65,19 +65,7 @@ body{
     
 }
 
-.home .btn{
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 50px;
-    background: #ff3559;
-    color: #fff;
-    text-transform: capitalize;
-    border: none;
-    margin-top: 40px;
-    
-}
-
-.about .btn{
+.btn{
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 50px;
@@ -88,7 +76,6 @@ body{
     
     
 }
-
 
 
 .info{
