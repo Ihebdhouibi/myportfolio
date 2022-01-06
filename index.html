@@ -391,6 +391,12 @@
                                     <label for="form-contact-email" class="">Email</label>
                                     <input type="text" id="form-contact-email" name="email" class="form-control text-white" required style="background: #1d1d1d;;">
                                     <!-- <input type="hidden" name="_next" value="https://ihebdhouibi.github.io/myportfolio/thanks.html"> -->
+                                    
+                                    <!--Add honeypot to prevent spam-->
+                                    <input type="text" name="_honey" style="display: none;">
+
+                                    <!--Remove captcha -->
+                                    <input type="hidden" name="_captcha" value="false">
                                 </div>
                             </div>
                         </div>
@@ -401,7 +407,7 @@
                             <div class="col-md-6">
                                 <div class="md-form-6 mb-0">
                                     <label for="form-contact-subject" class="">Subject</label>
-                                    <input type="text" id="form-contact-subject" class="form-control text-white" required style="background: #1d1d1d;;">
+                                    <input type="text" id="form-contact-subject" name="_subject" class="form-control text-white" required style="background: #1d1d1d;;">
                                 </div>
                             </div>
                         </div>
@@ -412,7 +418,7 @@
                                 <div class="md-form mb-0">
                                     <label for="form-contact-message">Your message</label>
                                     <textarea class="form-control md-textarea  text-white" id="form-contact-message" required rows="3" style="background: #1d1d1d;;"></textarea>
-                                    <input type="submit" style="color: blue; margin-top: 10px;"></i>
+                                    <input type="submit"  name="message" style="color: #fff;background: blue; margin-top: 10px; padding-right: 10px; padding-left: 10px;"></i>
                                
                                 </div>
                             </div>
