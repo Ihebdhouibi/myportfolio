@@ -1,4 +1,11 @@
 .box{
-    box-shadow: 10px;
-    
+    -webkit-box-shadow: -2px -1px 15px 7px rgba(255, 255, 255, 0.7);
+    -moz-box-shadow: -3px -2px 30px 14px rgba(255, 255, 255, 0.65);
+    box-shadow: -4px -3px 45px 21px rgba(255, 255, 255, 0.45);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #fff;
 }
+
