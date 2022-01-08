@@ -63,7 +63,7 @@ body{
     margin-left: 200px;
     right: 30px;
     text-align: right;
-    filter: drop-shadow(5px 10px 3px rgb(128, 124, 124))
+    filter: drop-shadow(5px 5px 3px rgb(128, 124, 124))
     
 }
 .btnhome{
@@ -177,6 +177,17 @@ body{
     width: 100%;
     height: 1px;
     background: #fff; 
+}
+/* about section */ 
+
+.about .seperator{
+    margin-bottom: 50px;
+}
+
+.about .img{
+    width: 400px;
+    height: 400px;
+    transform: rotateY(180deg);
 }
 
 /* projects */ 
