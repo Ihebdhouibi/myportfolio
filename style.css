@@ -1,16 +1,16 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing:border-box;
-}
+
 html{
     scroll-behavior: smooth;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 body{
     width: 100%;
     position: relative;
     background: #1d1d1d;
     color: #fff;
+    max-width: 100%;
+    overflow-x: hidden;
 }
 /* navbar*/
 .navbar{
@@ -57,11 +57,13 @@ body{
     position: relative;
 }
 
-.image{
-    width: 40%;
-    margin-left: -100px;
+.home .image{
+    width: 300px;
+    height: 300px;
+    margin-left: 200px;
     right: 30px;
-   
+    text-align: right;
+    filter: drop-shadow(5px 10px 3px rgb(128, 124, 124))
     
 }
 .btnhome{
@@ -89,10 +91,7 @@ body{
 }
 
 
-.info{
-    width:60%;
 
-}
 
 .myname{
     font-size: 5rem;
@@ -139,8 +138,10 @@ body{
     background: #e3e3e3;
 }
 
-.typed-text{
+.typed-text-container{
     line-height: 30px;
+    height: 100px;
+    width: 500px;
     margin-bottom: 50px;
 }
 
@@ -203,7 +204,9 @@ body{
     text-decoration: none;
 }
 
-
+.title{
+    font-size: 1.5rem;
+}
 
 
 
