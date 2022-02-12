@@ -192,7 +192,7 @@ body{
 
 /* projects */ 
 
-.card{
+#card-1{
     background: rgb(255, 255, 255);
     box-shadow: 0 0 5px #fff;
     box-sizing: 250px;
@@ -200,7 +200,7 @@ body{
     
 }
 
-.card-text{
+#card-1 .card-text{
     word-break: break-word;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -208,6 +208,71 @@ body{
     -webkit-line-clamp: 3; /* number of lines to show */
     -webkit-box-orient: vertical;
     
+}
+
+#card-2{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px #fff;
+    box-sizing: 250px;
+   
+    
+}
+
+#card-2 .card-text{
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    
+}
+
+#card-3{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px #fff;
+    box-sizing: 250px;
+   
+    
+}
+
+#card-3 .card-text{
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    
+}
+#card-4{
+    background: rgb(255, 255, 255);
+    box-shadow: 0 0 5px #fff;
+    box-sizing: 250px;
+   
+    
+}
+
+#card-4 .card-text{
+    word-break: break-word;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* number of lines to show */
+    -webkit-box-orient: vertical;
+    
+}
+
+#card-4 #viewmore{
+    display: none;
+}
+
+#card-4 #viewless{
+    display: none;
+}
+
+#card-4:hover #viewmore{
+    display: inline;
 }
 
 .viewmore {
