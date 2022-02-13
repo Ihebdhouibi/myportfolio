@@ -263,16 +263,16 @@ body{
     
 }
 
-#card-4 #viewmore{
+#card-4 #card-2 #card-3 .popup-btn{
     display: none;
 }
 
-#card-4 #viewless{
-    display: none;
-}
 
-#card-4:hover #viewmore{
-    display: inline;
+
+#card-2 #card-3 #card-4:hover .popup-btn{
+    display: flex;
+    background: darkgray;
+    border: none;
 }
 
 .viewmore {
@@ -308,8 +308,8 @@ body{
 .popup-card {
     position: relative;
     display: flex;
-    width: 600px;
-    height: 400px;
+    width: 700px;
+    height: 500px;
     margin: 20px;
 }
 
@@ -321,7 +321,7 @@ body{
     background: #2B363D;
     justify-content: center;
     align-items: center;
-    width: 50%;
+    width: 40%;
     height: 90%;
     transform: translateY(20px);
     border-top-left-radius: 10px;
