@@ -77,4 +77,26 @@ links.forEach(link => {
 
 // cards viewmore 
 
+var popupViews = document.querySelectorAll('.popup-view')
+var popupBtns = document.querySelectorAll('.popup-btn')
+var popupCloses = document.querySelectorAll('.close-btn')
+
+var popup = function(popupClick) {
+    popupViews[popupClick].classList.add('active');
+}
+
+popupBtns.forEach((popupBtn, i) => {
+    popupBtn.addEventListener("click", () => {
+        popup(i);
+    });
+});
+
+popupCloses.forEach((closeBtn) => {
+    closeBtn.addEventListener("click", () => {
+        popupViews.forEach((popupView) => {
+            popupView.classList.remove('active');
+        });
+    });
+});
+
 

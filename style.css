@@ -296,6 +296,13 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    visibility: hidden;
+}
+
+.popup-view.active{
+    opacity: 1;
+    visibility: visible;
 }
 
 .popup-card {
@@ -315,6 +322,10 @@ body{
     justify-content: center;
     align-items: center;
     width: 50%;
+    height: 90%;
+    transform: translateY(20px);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
 
 }
 
@@ -335,5 +346,15 @@ body{
     box-sizing: border-box;
     padding: 30px;
     border-radius: 10px;
+}
+
+.popup-card .close-btn {
+    color: #555;
+    z-index: 3;
+    position: absolute;
+    right: 0;
+    font-size: 20px;
+    margin: 10px;
+    cursor: pointer;
 }
 
