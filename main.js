@@ -66,13 +66,34 @@ $('#projects-filter li').on('click', function(){
 // links 
 
 const links = document.querySelectorAll('.link');
+const sections = document.querySelectorAll("section");
 
 links.forEach(link => {
     link.addEventListener('click', () => {
         links.forEach(ele => ele.classList.remove('active'));
         link.classList.add('active')
-    })
-})
+    });
+});
+
+/* 
+window.onscroll = () => {
+    var current = "";
+
+    sections.forEach((section) => {
+        const sectionTop = section.offsetTop;
+        if (pageYOffset >= sectionTop - 60){
+            current = section.getAttribute("id");
+        }
+    });
+
+    links.forEach((link) => {
+        link.classList.remove("active");
+        if (link.classList.contains(current)){
+            link.classList.add("active");
+        }
+    });
+};
+*/ 
 
 
 // cards viewmore 

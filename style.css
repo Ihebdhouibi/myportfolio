@@ -190,6 +190,9 @@ body{
     height: 1px;
     background: #fff; 
 }
+.link.active {
+    color: gray;
+}
 /* about section */ 
 
 .about .seperator{
