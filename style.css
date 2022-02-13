@@ -90,8 +90,20 @@ body{
     border: none;
 }
 
-
-
+.send-btn {
+    border: none;
+    background: #1d1d1d;
+    color: #fff;
+    margin: 3px;
+    font-weight: 10px;
+    
+}
+.send-btn:hover {
+    background: #4059D1;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
 
 .myname{
     font-size: 5rem;
